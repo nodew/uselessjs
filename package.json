@@ -1,0 +1,32 @@
+{
+  "name": "uselessjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "author": "wangqiao",
+  "repository": {
+    "url": "https://github.com/nodew/uselessjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/traverse": "^7.0.0-beta.46",
+    "babel-core": "^6.26.3",
+    "babylon": "^6.18.0",
+    "commander": "^2.15.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "prettier": "^1.13.5"
+  }
+}
